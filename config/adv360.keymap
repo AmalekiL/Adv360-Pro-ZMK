@@ -74,16 +74,6 @@
             key-positions = <20>;
         };
 
-        ForwardHighlight {
-            bindings = <&kp LC(LS(RIGHT))>;
-            key-positions = <39>;
-        };
-
-        ForwardLineHighlight {
-            bindings = <&kp LC(LS(DOWN))>;
-            key-positions = <21>;
-        };
-
         WinKey {
             bindings = <&kp LEFT_WIN>;
             key-positions = <60>;
@@ -122,6 +112,16 @@
         SelectAll {
             bindings = <&kp LC(A)>;
             key-positions = <35>;
+        };
+
+        LineShiftUp {
+            bindings = <&kp LA(LS(UP_ARROW))>;
+            key-positions = <21>;
+        };
+
+        LineShiftDown {
+            bindings = <&kp LA(LS(DOWN))>;
+            key-positions = <39>;
         };
     };
 
