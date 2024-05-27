@@ -66,12 +66,12 @@
 
         BackwardHighlight {
             bindings = <&kp LC(LS(LEFT_ARROW))>;
-            key-positions = <34>;
+            key-positions = <20>;
         };
 
         BackwardLineHighlight {
             bindings = <&kp LC(LS(UP_ARROW))>;
-            key-positions = <20>;
+            key-positions = <34>;
         };
 
         WinKey {
