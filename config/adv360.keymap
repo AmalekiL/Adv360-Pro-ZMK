@@ -36,17 +36,32 @@
 
         Screenshot {
             bindings = <&kp LG(LS(S))>;
-            key-positions = <52>;
-        };
-
-        Space {
-            bindings = <&kp SPACE>;
-            key-positions = <67>;
+            key-positions = <36>;
         };
 
         Voice {
             bindings = <&kp LA(L)>;
             key-positions = <68>;
+        };
+
+        Space {
+            bindings = <&kp SPACE>;
+            key-positions = <66>;
+        };
+
+        Copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <52>;
+        };
+
+        Paste {
+            bindings = <&kp LC(P)>;
+            key-positions = <67>;
+        };
+
+        Emoji {
+            bindings = <&kp LG(PERIOD)>;
+            key-positions = <53>;
         };
     };
 
