@@ -46,7 +46,7 @@
 
         Space {
             bindings = <&kp SPACE>;
-            key-positions = <65>;
+            key-positions = <66>;
         };
 
         Copy {
@@ -101,7 +101,7 @@
 
         Backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <66>;
+            key-positions = <65>;
         };
 
         Delete {
