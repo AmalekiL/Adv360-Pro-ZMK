@@ -63,6 +63,26 @@
             bindings = <&kp LG(PERIOD)>;
             key-positions = <53>;
         };
+
+        BackwardHighlight {
+            bindings = <&kp LC(LS(LEFT_ARROW))>;
+            key-positions = <34>;
+        };
+
+        BackwardLineHighlight {
+            bindings = <&kp LC(LS(UP_ARROW))>;
+            key-positions = <20>;
+        };
+
+        ForwardHighlight {
+            bindings = <&kp LC(LS(RIGHT))>;
+            key-positions = <39>;
+        };
+
+        ForwardLineHighlight {
+            bindings = <&kp LC(LS(DOWN))>;
+            key-positions = <21>;
+        };
     };
 
     keymap {
