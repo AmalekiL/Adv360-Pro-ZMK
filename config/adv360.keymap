@@ -40,7 +40,7 @@
         };
 
         Voice {
-            bindings = <&kp LA(L)>;
+            bindings = <&kp LC(LS(O))>;
             key-positions = <68>;
         };
 
@@ -107,6 +107,21 @@
         Delete {
             bindings = <&kp DEL>;
             key-positions = <62>;
+        };
+
+        Alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <38>;
+        };
+
+        Control {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <37>;
+        };
+
+        SelectAll {
+            bindings = <&kp LC(A)>;
+            key-positions = <35>;
         };
     };
 
