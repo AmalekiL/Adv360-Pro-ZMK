@@ -111,7 +111,7 @@
 
         SelectAll {
             bindings = <&kp LC(A)>;
-            key-positions = <35>;
+            key-positions = <>;
         };
 
         LineShiftUp {
