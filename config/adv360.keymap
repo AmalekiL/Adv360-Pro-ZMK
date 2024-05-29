@@ -76,7 +76,7 @@
 
         WinKey {
             bindings = <&kp LEFT_WIN>;
-            key-positions = <34>;
+            key-positions = <62>;
         };
 
         Escape {
@@ -96,17 +96,17 @@
 
         Delete {
             bindings = <&kp DEL>;
-            key-positions = <62>;
+            key-positions = <>;
         };
 
         Alt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <38>;
+            key-positions = <61>;
         };
 
         Control {
             bindings = <&kp LEFT_CONTROL>;
-            key-positions = <37 60>;
+            key-positions = <60>;
         };
 
         SelectAll {
