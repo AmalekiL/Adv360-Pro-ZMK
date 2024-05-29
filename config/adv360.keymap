@@ -109,8 +109,8 @@
             key-positions = <60>;
         };
 
-        SelectAll {
-            bindings = <&kp LC(A)>;
+        Enter {
+            bindings = <&kp ENTER>;
             key-positions = <35>;
         };
 
