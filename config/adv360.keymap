@@ -76,7 +76,7 @@
 
         WinKey {
             bindings = <&kp LEFT_WIN>;
-            key-positions = <60>;
+            key-positions = <34>;
         };
 
         Escape {
@@ -106,12 +106,12 @@
 
         Control {
             bindings = <&kp LEFT_CONTROL>;
-            key-positions = <37 35>;
+            key-positions = <37 60>;
         };
 
         SelectAll {
             bindings = <&kp LC(A)>;
-            key-positions = <>;
+            key-positions = <35>;
         };
 
         LineShiftUp {
